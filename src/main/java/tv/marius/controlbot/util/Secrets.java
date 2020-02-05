@@ -11,7 +11,7 @@ public class Secrets {
     public static final String[] TEAM_RANKS = {};
 
     public static final String ID_CHANNEL_BOT = "639825393377083392",
-                                ID_CHANNEL_DCCHANGE = "637580647866695690", // Wieder ändern!
+                                ID_CHANNEL_DCCHANGE = "624957917543530496", // Ist geändert
                                 ID_CHANNEL_SUGGESTIONS = "624957380089610285",
                                 ID_CHANNEL_TODO = "674144593352196096";
 
