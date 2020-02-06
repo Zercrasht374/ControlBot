@@ -4,8 +4,10 @@ import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
+import tv.marius.controlbot.commands.todo;
 import tv.marius.controlbot.commands.update;
 import tv.marius.controlbot.listener.messageListener;
+import tv.marius.controlbot.listener.reactionListener;
 import tv.marius.controlbot.util.Secrets;
 import tv.marius.controlbot.util.commandHandler;
 
@@ -37,11 +39,12 @@ public class ControlBot {
         }
     }
 
-    private static void registerListener() { builder.addEventListeners(new messageListener()); }
+    private static void registerListener() { builder.addEventListeners(new messageListener(), new reactionListener()); }
 
     private static void registerCommands() {
 
         commandHandler.commands.put("update", new update());
+        commandHandler.commands.put("todo", new todo());
 
     }
 

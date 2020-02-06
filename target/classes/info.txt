@@ -1,2 +1,4 @@
 Token: Njc0Mjk4NzA4MjQ2MDAzNzMy.XjmlAA.w0_9wpAtzOXWf9pmLEjXp200zVg
 URL: https://discordapp.com/oauth2/authorize?client_id=674298708246003732&scope=bot&permissions=8
+Upload-URL: https://workupload.com/file/gEUfvkwq
+Upload-PW: j9u843#ZR
